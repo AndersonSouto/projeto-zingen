@@ -40,6 +40,7 @@
     padding: .75rem 1.5rem;
     font-size: var(--fs-base);
 }
+
 .btn-lg {
     padding: 1rem 2rem;
     font-size: 1.125rem;
@@ -51,7 +52,7 @@
         content: "";
         position: absolute;
         border-radius: inherit;
-        inset: 0.09375rem;
+        inset: 1px;
         background-color: var(--background-color);
     }
     &::after {
